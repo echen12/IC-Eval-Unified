@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/echen12/IC-Eval-FE
+[submodule "backend"]
+	path = backend
+	url = https://github.com/echen12/IC-Eval-Backend
