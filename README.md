@@ -22,7 +22,7 @@ the project uses git submodules (e.g., the frontend or backend is in separate re
 git submodule update --init --recursive
 ```
 
-4. Open the IC-Eval-Unified.sln file in Visual Studio
+4. Open the IC-Eval-Unified.sln file in Visual Studio (this file is in the cloned project folder).
 
 5. Right click on the solution -> Configure Startup Projects -> Multiple Startup Projects -> Put Backend in front of the Frontend and have both set to Start.
 
