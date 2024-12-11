@@ -6,10 +6,24 @@
 ## To Run:
 
 1. Clone the project.
-2. Run the `dotnet build` command in the terminal and confirm it builds without any errors.
-3. Configure the startup projects:
-   - Right-click on **Solution 'IC-Eval-Unified'**.
-   - Go to **Configure Startup Projects**.
-   - Select **Multiple Startup Projects**.
-   - Set the **Backend** to start first and the **Frontend** second.
-   - Ensure both are set to **Start**.
+2. Navigate to the Project Directory
+
+After cloning the repository, navigate to the project directory:
+
+```bash
+cd IC-Eval-Unified
+```
+
+3. Initialize Submodules
+
+the project uses git submodules (e.g., the frontend or backend is in separate repositories),
+
+```bash
+git submodule update --init --recursive
+```
+
+4. Open the IC-Eval-Unified.sln file in Visual Studio
+
+5. Right click on the solution -> Configure Startup Projects -> Multiple Startup Projects -> Put Backend in front of the Frontend and have both set to Start.
+
+6. Start the project. 
